@@ -36,7 +36,7 @@ Create a separate tidy data set from the merged data set with the mean of each v
 
 In the tidy data set: 
 - each variable forms a column: 68 columns
-- each observation (the mean of each activity performed by a subject) forms a row: 180 rows (30 subjects * 6 activities)
+- each observation forms a row: 180 rows (30 subjects * 6 activities)
 
 #####Variables in tidydata.txt data set  
  
