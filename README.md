@@ -1,6 +1,6 @@
 ##Coursera Getting and Cleaning Data Assignment
 
-Details of the data and transformations can be found in [CodeBook.md]()
+Details of the data and transformations can be found in [CodeBook.md](./CodeBook.md)
 
 ###Summary of assignment instructions:
 
@@ -12,7 +12,7 @@ You should create one R script called run_analysis.R that does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-###Using the R script
+###To use the R script
 1. Download and extract the [source data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into the working directory.
 2. Add run_analysis.R to the working directory.
 3. Use `source("run_analysis.R")` in RStudio to:
