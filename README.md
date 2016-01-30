@@ -21,6 +21,6 @@ You should create one R script called run_analysis.R that does the following:
   - Add descriptive activity names
   - Label the variables
   - Generate a tidy data set with the average of each variable for each activity and each subject
-  - Write the tidy data to a file in the working directory called tidy_data.txt 
+  - Write the tidy data to a file in the working directory called tidydata.txt 
 4. Use `data <- read.table("tidydata.txt", header = TRUE)` in RStudio to read the file.
 
