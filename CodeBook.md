@@ -7,19 +7,19 @@ Description of data: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Reco
 ###Transforming the data
 #####Step 1 
 Merge data from:
-- UCI HAR Dataset/train/subject_train.txt
-- UCI HAR Dataset/train/x_train.txt
-- UCI HAR Dataset/train/y_train.txt
-- UCI HAR Dataset/test/subject_test.txt
-- UCI HAR Dataset/test/x_test.txt
-- UCI HAR Dataset/test/y_test.txt
+- `UCI HAR Dataset/train/subject_train.txt`
+- `UCI HAR Dataset/train/x_train.txt`
+- `UCI HAR Dataset/train/y_train.txt`
+- `UCI HAR Dataset/test/subject_test.txt`
+- `UCI HAR Dataset/test/x_test.txt`
+- `UCI HAR Dataset/test/y_test.txt`
 
 #####Step 2
 Subset the merged data set to keep only measurements on the mean and standard deviation for each measurement.  
 Variables where the name contained "mean()" or "std()" were considered.
 	
 #####Step 3
-Replace activity IDs in the merged data set with descriptive activity names from UCI HAR Dataset/activity_labels.txt
+Replace activity IDs in the merged data set with descriptive activity names from `UCI HAR Dataset/activity_labels.txt`
 	
 #####Step 4
 Label the merged data set with variable names from features.txt.  
