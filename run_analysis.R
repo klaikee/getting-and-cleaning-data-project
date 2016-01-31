@@ -51,7 +51,7 @@ names(meanstddata) <- gsub("\\(\\)","", names(meanstddata)) #remove "()" from th
 names(meanstddata) <- gsub("^t","time", names(meanstddata)) #replace "t" with "time"
 names(meanstddata) <- gsub("^f","freq", names(meanstddata)) #replace "f" with "freq" for frequency
 names(meanstddata) <- gsub("std","stddev", names(meanstddata)) #replace "std" with "stddev" for standard deviation
-
+ 
 
 # STEP 5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
